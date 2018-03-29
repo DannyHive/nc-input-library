@@ -1,6 +1,8 @@
 var axios = require('axios')
 var log = require('../lib/logger')
 
+var Promise = require('bluebird')
+
 const TAG = 'Model'
 class Model {
   getRequest (url, networkTimeout) {

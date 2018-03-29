@@ -7,6 +7,7 @@ require('select2')($)
 var moment = require('moment')
 // var moment = null
 var NProgress = require('nprogress')
+var Promise = require('bluebird')
 
 var log = require('../lib/logger')
 
